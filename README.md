@@ -14,6 +14,8 @@ Simply drop this project in your local webroot, and drop your projects inside it
 Structure
 ---------
 The file structure is small and simple:
-- _hidden (folder: this is where the application assets and tools are)
+- _hidden (folder: anything in this folder will not be displayed in the browser)
+    - assets (folder: holds css, js, images, etc.)
+    - tools (folder: phpinfo, phpliteadmin, and sqlbuddy are located here)
 - example-hello-world-app (folder: sample project you can delete)
 - index.php (file: entry point)
